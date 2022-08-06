@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'PunkTW';
+    src: url('../fontes/punk-typewriter.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --color1: #E3170A;
+    --color2: #2F0601;
+    --color3: #000000;
+    --color4: #6E6A6F;
+    --color5: #E0E0E0;
+
+    --fonte-padrao: 'Times New Roman', Times, serif;
+    --fonte-punk: 'PunkTW', 'cursive';
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: lightgray;
+    font-family: var(--fonte-padrao);
+}
+
+div#topoheader {
+    background-color: lightslategray;
+    height: 3vh;
+}
+
+header {
+    background-color: lightslategray;
+    height: 25vh;
+}
+
+header > h1 {
+    background-color: white;
+    width: 710px;
+    font-family: var(--fonte-punk);
+    font-size: 5em;
+    font-weight: normal;
+    padding: 30px;
+    margin: auto;
+}
+
+nav {
+    background-color: white;
+    width:  710px;
+    padding: 17px 0px 10px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+nav > a {
+    font-family: var(--fonte-padrao);
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+div#fixador {
+    background-color: black;
+    width: 710px;
+    height: 15px;
+    margin: auto;
+}
+
+main {
+    background-color: white;
+    width: 710px;
+    margin: auto;
+    padding: 10px;
+}
+
+main > h2 {
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--color2);
+}
+
