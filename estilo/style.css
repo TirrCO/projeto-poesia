@@ -38,21 +38,23 @@ header {
 }
 
 header > h1 {
-    background-color: white;
-    width: 710px;
+    background-color: whitesmoke;
+    width: 680px;
     font-family: var(--fonte-punk);
     font-size: 5em;
     font-weight: normal;
-    padding: 30px;
+    padding: 30px 15px;
     margin: auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 nav {
-    background-color: white;
-    width:  710px;
+    background-color: whitesmoke;
+    width:  680px;
     padding: 17px 0px 10px 0px;
     margin: auto;
     text-align: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 nav > a {
@@ -70,22 +72,27 @@ a:hover {
 
 div#fixador {
     background-color: black;
-    width: 710px;
+    width: 680px;
     height: 15px;
     margin: auto;
 }
 
 main {
-    background-color: white;
-    width: 710px;
+    background-color: whitesmoke;
+    width: 680px;
     margin: auto;
     padding: 10px;
+    font-size: large;
 }
 
 main > h2 {
     text-align: center;
     padding: 10px;
     text-decoration: underline;
+}
+
+main > p {
+    padding: 5px;
 }
 
 footer {
