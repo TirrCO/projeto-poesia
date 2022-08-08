@@ -1,20 +1,15 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'PunkTW';
-    src: url('../fontes/punk-typewriter.otf') format('opentype');
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 
 :root {
     --color1: #E3170A;
     --color2: #2F0601;
     --color3: #000000;
     --color4: #6E6A6F;
-    --color5: #E0E0E0;
+    --color5: #F3EEE5;
 
-    --fonte-padrao: 'Times New Roman', Times, serif;
-    --fonte-punk: 'PunkTW', 'cursive';
+    --fonte-padrao: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -23,42 +18,41 @@
 }
 
 body {
-    background-color: lightgray;
+    background-image: url('../imagens/fundodia.jpg');
     font-family: var(--fonte-padrao);
 }
 
-div#topoheader {
-    background-color: lightslategray;
-    height: 3vh;
-}
-
 header {
-    background-color: lightslategray;
+    background-image: linear-gradient(to bottom, lightblue, lightskyblue);
     height: 25vh;
+    padding-top: 25px;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 header > h1 {
-    background-color: whitesmoke;
-    width: 680px;
-    font-family: var(--fonte-punk);
+    background-color: var(--color5);
+    width: 630px;
+    font-weight: bold;
     font-size: 5em;
-    font-weight: normal;
-    padding: 30px 15px;
+    font-family: 'Square Peg', 'cursive';
+    padding: 10px 15px;
     margin: auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 nav {
-    background-color: whitesmoke;
-    width:  680px;
-    padding: 17px 0px 10px 0px;
+    background-color: var(--color5);
+    width:  630px;
+    padding: 10px 0px 10px 0px;
     margin: auto;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 nav > a {
-    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: 'Square Peg', 'cursive';
     text-decoration: none;
     color: black;
     margin-right: 5px;
@@ -67,28 +61,23 @@ nav > a {
 
 a:hover {
     background-color: black;
-    color: white;
-}
-
-div#fixador {
-    background-color: black;
-    width: 680px;
-    height: 15px;
-    margin: auto;
+    color: var(--color5);
 }
 
 main {
-    background-color: whitesmoke;
-    width: 680px;
+    background-color: var(--color5);
+    width: 630px;
     margin: auto;
-    padding: 10px;
-    font-size: large;
+    padding: 0px 20px 0px 20px;
+    font-size: 1.1em;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 main > h2 {
-    text-align: center;
-    padding: 10px;
-    text-decoration: underline;
+    font-weight: bold;
+    font-size: 3.5em;
+    font-family: 'Square Peg', 'cursive';
+    padding: 10px 10px;
 }
 
 main > p {
@@ -96,6 +85,18 @@ main > p {
 }
 
 footer {
-    background-color: var(--color2);
+    background-color: var(--color5);
+    width: 630px;
+    margin: auto;
+    text-align: right;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    padding: 5px;
 }
 
