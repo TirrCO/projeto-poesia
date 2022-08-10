@@ -18,92 +18,15 @@
 }
 
 body {
-    background-image: url('../imagens/fundodia-edit.jpg');
-    font-family: var(--fonte-padrao);
-}
-
-header {
-    background-image: linear-gradient(to bottom, lightblue, lightskyblue);
-    height: 25vh;
-    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
-}
-
-header > h1 {
-    background-color: var(--color5);
-    width: 630px;
-    font-weight: bold;
-    font-size: 5em;
-    font-family: 'Square Peg', 'cursive';
-    padding: 10px 20px;
-    margin: 0px 200px 0px 100px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-}
-
-div > p {
-    padding-left: 10px;
-}
-
-.dupla {
-    display: inline-block;
-}
-
-nav {
-    background-color: var(--color5);
-    width:  630px;
-    padding: 0px 0px 10px 0px;
-    margin: 0px 0px 0px 100px;
-    text-align: center;
-}
-
-nav > a {
-    font-weight: bold;
-    font-size: 1.1em;
-    font-family: 'Square Peg', 'cursive';
-    text-decoration: none;
-    color: black;
-    margin-right: 5px;
-    padding: 8px 8px;
-}
-
-a:hover {
+    /*
     background-color: black;
-    color: var(--color5);
-}
-
-main {
-    background-color: var(--color5);
-    width: 630px;
-    margin: 30px 0px 0px 100px;
-    padding: 0px 20px 0px 20px;
-    font-size: 1em;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-}
-
-main > h2 {
-    font-weight: bold;
-    font-size: 3.5em;
-    font-family: 'Square Peg', 'cursive';
-    padding: 10px 10px;
-}
-
-main > p {
-    padding: 5px;
-    line-height: 19px;
-}
-
-footer {
-    background-color: var(--color5);
-    width: 630px;
-    margin: 0px 0px 0px 100px;
-    text-align: right;
-    padding: 10px;
-}
-
-footer a {
-    text-decoration: none;
-    color: black;
-    font-style: italic;
-    font-weight: bold;
-    padding: 5px;
+    background-image: url('../imagens/dunadia.jpg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    */
+    background: black left top / cover no-repeat fixed;
+    font-family: var(--fonte-padrao);
 }
 
