@@ -10,57 +10,34 @@
             margin: 0px;
         }
 
-        body {
-            background-color: gray;
-            background-image: url('imagens/fundodia-edit.jpg');
-        }
-
-        header {
-            background-image: linear-gradient(to bottom, lightblue, lightskyblue);
-            height: 25vh;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 20px;
-        }
-
         div {
-            background-color: white;
-            height: 178px;
-            width: 40vw;
-            margin: 30px 0px 0px 50px;
+            position: absolute;
+            height: 200px;
+            width: 200px;
         }
-
-        div > h1 {
-            width: 550px;
-            margin: 50px 0px 0px 30px;
-            font-size: 2.8em;
+        div#div1 {
+            z-index: 1;
+            left: 0px;
+            top: 0px;
+            background-color: blue;
         }
-
-        img {
-            width: 30vw;
-            margin-left: 50px;
+        div#div2 {
+            z-index: 3;
+            left: 100px;
+            top: 100px;
+            background-color: green;
         }
-
-        main {
-            background-color: white;
-            width: 40vw;
-            margin: 20px 0px 0px 50px;
+        div#div3 {
+            z-index: 2;
+            left: 50px;
+            top: 150px;
+            background-color: red;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="dupla">
-            <h1>Eu, um papel e a pungência</h1>
-        </div>
-        <img class="dupla" src="imagens/nuvem-m.png" alt="">
-    </header>
-    <main>
-        <h2>=</h2>
-        <p>-</p>
-        <p>-</p>
-        <p>-</p>
-        <p>-</p>
-    </main>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
 </body>
 </html>

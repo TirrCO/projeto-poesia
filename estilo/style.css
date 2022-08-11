@@ -30,3 +30,42 @@ body {
     font-family: var(--fonte-padrao);
 }
 
+div {
+    position: absolute;
+    width: 480px;
+    height: 500px;
+    background-color: burlywood;
+    border: 1px dashed black;
+}
+
+div#titnav {
+    z-index: 1;
+    left: 100px;
+    top: 100px;
+    padding: 0px 10px;
+}
+
+a {
+    margin-bottom: 10px;
+}
+
+div#poema {
+    z-index: 2;
+    left: 150px;
+    top: 190px;
+    padding: 10px 20px;
+}
+
+div#poema > p {
+    line-height: 20px;
+}
+
+h1 {
+    font-size: 4em;
+    font-family: 'Square Peg', cursive;
+}
+
+h2 {
+    font-size: 3em;
+    font-family: 'Square Peg', cursive;
+}
