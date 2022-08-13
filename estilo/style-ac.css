@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #24034d;
+    color: #F1D3A5;
+    padding-left: 5px;
+}
+
+h2 {
+    font-family: 'Square Peg', 'cursive';
+    font-size: 4em;
+    padding-bottom: 30px;
+}
+
+h3 {
+    padding: 5px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 40px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+section.imagem {
+    background-color: gray;
+    box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#loucura {
+    background-image: url('../imagens/anossaloucura-edit.jpg');
+}
+
+section#admir {
+    background-image: url('../imagens/admintsecreto-edit.jpg');
+}
+
+section#san {
+    background-image: url('../imagens/asadisse-edit.jpg');
+}
+
+section#princ {
+    background-image: url('../imagens/atiprincesa.jpg');
+}
+
+section#abort {
+    background-image: url('../imagens/amoresabortados-edit.jpg');
+}
+
+section#deturp {
+    background-image: url('../imagens/aoedeturpar-edit.jpg');
+}
+
+section#oblit {
+    background-image: url('../imagens/aoeobliterar-edit.jpg');
+}
+
+article {
+    background-image: linear-gradient(to bottom, rgba(142, 64, 238, 0.5), white);
+    width: 510px;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #F1D3A5;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.lumi {
+    color: #521e18;
+    text-shadow: .5px .5px 1px rgb(171, 102, 70, 0.5);
+}

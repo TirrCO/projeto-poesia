@@ -6,93 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/eupeap.ico" type="image/x-icon">
     <title>(A-C) Eu, um papel e a pungência</title>
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
-
-        body {
-            background-color: lightslategray
-        }
-
-        header {
-            background-color: goldenrod;
-        }
-
-        section.imagem {
-            background-color: gray;
-            box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
-            background-size: cover;
-            background-attachment: fixed;
-        }
-
-        section#imgloucura {
-            background-image: url('imagens/anossaloucura-edit.jpg');
-        }
-
-        section#imgadmin {
-            background-image: url('imagens/admintsecreto-edit.jpg');
-        }
-
-        section#imgsan {
-            background-image: url('imagens/asadisse-edit.jpg');
-        }
-
-        section#imgprinc {
-            background-image: url('imagens/atiprincesa.jpg');
-        }
-
-        section#imgabort {
-            background-image: url('imagens/amoresabortados-edit.jpg');
-        }
-
-        section#imgdeturp {
-            background-image: url('imagens/aoedeturpar-edit.jpg');
-        }
-
-        section#imgoblit {
-            background-image: url('imagens/aoeobliterar-edit.jpg');
-        }
-    </style>
+    <link rel="stylesheet" href="estilo/style-ac.css">
 </head>
-<body>
+<body onload="carregar()">
     <header>
-        <h2>Eu, um papel e a pungência</h2>
+        <h3>
+            <a href="#doninha">Doninha</a> <img src="imagens/penanav.png" alt="">
+            <a href="#loucura">Loucura</a> <img src="imagens/penanav.png" alt="">
+            <a href="#procura">Procura</a> <img src="imagens/penanav.png" alt="">
+            <a href="#san">Sã</a> <img src="imagens/penanav.png" alt="">
+            <a href="#flor">Flor</a> <img src="imagens/penanav.png" alt="">
+            <a href="#princ">Princesa</a> <img src="imagens/penanav.png" alt="">
+            <a href="#acrost">Acróstico</a> <img src="imagens/penanav.png" alt="">
+            <a href="#admir">Admirador</a> <img src="imagens/penanav.png" alt="">
+            <a href="#colet">Coletivos</a> <img src="imagens/penanav.png" alt="">
+            <a href="#abort">Abortados</a> <img src="imagens/penanav.png" alt="">
+            <a href="#quando">Até quando?</a> <img src="imagens/penanav.png" alt="">
+            <a href="#deturp">Deturpar</a> <img src="imagens/penanav.png" alt="">
+            <a href="#esparg">Espargir</a> <img src="imagens/penanav.png" alt="">
+            <a href="#oblit">Obliterar</a>
+        </h3>
     </header>
-        <section class="normal">
-            <h2>A doninha e a sua ausência</h2>
+        <section class="lumi" id="doninha">
+            <h2 class="t2">A doninha e a sua ausência</h2>
             <br>
-            <p>
-                Lembro da morenice que contrastava com a cama <br>
-                Ao perder-se por entre os lençóis, e seus tons <br>
-                Teu cheiro pelas roupas; no criado-mudo, batons <br>
-                Na minha mente, tua voz que ainda me chama
-            </p>
-            <br>
-            <p>
-                Sinto falta do abraço apertado que trazia conforto <br>
-                Pondo fim ao tormento que era estar distante <br>
-                Como o marinheiro que após anos, volta ao porto <br>
-                Ou, ao tão sonhado lar, um cavaleiro errante
-            </p>
-            <br>
-            <p>
-                Lembro de fitar cada centímetro de tua perfeição <br>
-                Com os olhos de quem curou-se da cegueira <br>
-                Desbravando toda tua pele e silhueta, mão a mão <br>
-                Ininterruptamente pela noite adentro e inteira
-            </p>
-            <br>
-            <p>
-                Sinto falta de ter o teu nome na ponta da língua <br>
-                Como quando ao ouvido te chamava "minha" <br>
-                E a sensação de plenitude que na hora me vinha <br>
-                Agora amargura aquilo que não volta; míngua
-            </p>
+            <article>
+                <p>
+                    Lembro da morenice que contrastava com a cama <br>
+                    Ao perder-se por entre os lençóis, e seus tons <br>
+                    Teu cheiro pelas roupas; no criado-mudo, batons <br>
+                    Na minha mente, tua voz que ainda me chama
+                </p>
+                <br>
+                <p>
+                    Sinto falta do abraço apertado que trazia conforto <br>
+                    Pondo fim ao tormento que era estar distante <br>
+                    Como o marinheiro que após anos, volta ao porto <br>
+                    Ou, ao tão sonhado lar, um cavaleiro errante
+                </p>
+                <br>
+                <p>
+                    Lembro de fitar cada centímetro de tua perfeição <br>
+                    Com os olhos de quem curou-se da cegueira <br>
+                    Desbravando toda tua pele e silhueta, mão a mão <br>
+                    Ininterruptamente pela noite adentro e inteira
+                </p>
+                <br>
+                <p>
+                    Sinto falta de ter o teu nome na ponta da língua <br>
+                    Como quando ao ouvido te chamava "minha" <br>
+                    E a sensação de plenitude que na hora me vinha <br>
+                    Agora amargura aquilo que não volta; míngua
+                </p>
+            </article>
             <br>
         </section>
-        <section class="imagem" id="imgloucura">
+        <section class="imagem" id="loucura">
             <h2>À nossa loucura</h2>
             <br>
             <p>
@@ -124,39 +93,41 @@
             </p>
             <br>
         </section>
-        <section class="normal">
-            <h2>À procura da procura</h2>
+        <section class="lumi" id="procura">
+            <h2 class="t2">À procura da procura</h2>
             <br>
-            <p>
-                Já senti e foi com riqueza de detalhes, até <br>
-                Que tal procura se instalou e por usucapião <br>
-                Me depôs e foi, porta afora e por pontapé <br>
-                Se declarando soberana desse meu coração
-            </p>
-            <br>
-            <p>
-                No momento presente, nem resquício sinto <br>
-                Embora outrora caos entremeasse meu id <br>
-                Passado o pior, é fato que o aprumo incide <br>
-                Brinde à autossuficiência; com vinho tinto!
-            </p>
-            <br>
-            <p>
-                Me cansei do destino e seus dados viciados <br>
-                Da procura da procura; seu modus operandi <br>
-                Deixar louco quem ama; no chão, estirados <br>
-                Fazer de cada um de nós pobre diabo infante
-            </p>
-            <br>
-            <p>
-                Lamento feito, só resta esperar seu regresso <br>
-                É da natureza humana; noss'alma grita, cede <br>
-                Sua aparição, nem o nosso orgulho impede <br>
-                À nossa caixinha de amores tem livre acesso
-            </p>
+            <article>
+                <p>
+                    Já senti e foi com riqueza de detalhes, até <br>
+                    Que tal procura se instalou e por usucapião <br>
+                    Me depôs e foi, porta afora e por pontapé <br>
+                    Se declarando soberana desse meu coração
+                </p>
+                <br>
+                <p>
+                    No momento presente, nem resquício sinto <br>
+                    Embora outrora caos entremeasse meu id <br>
+                    Passado o pior, é fato que o aprumo incide <br>
+                    Brinde à autossuficiência; com vinho tinto!
+                </p>
+                <br>
+                <p>
+                    Me cansei do destino e seus dados viciados <br>
+                    Da procura da procura; seu modus operandi <br>
+                    Deixar louco quem ama; no chão, estirados <br>
+                    Fazer de cada um de nós pobre diabo infante
+                </p>
+                <br>
+                <p>
+                    Lamento feito, só resta esperar seu regresso <br>
+                    É da natureza humana; noss'alma grita, cede <br>
+                    Sua aparição, nem o nosso orgulho impede <br>
+                    À nossa caixinha de amores tem livre acesso
+                </p>
+            </article>
             <br>
         </section>
-        <section class="imagem" id="imgsan">
+        <section class="imagem" id="san">
             <h2>A sã disse</h2>
             <br>
             <p>
@@ -188,39 +159,41 @@
             </p>
             <br>
         </section>
-        <section class="normal">
-            <h2>A ti, flor</h2>
+        <section class="lumi" id="flor">
+            <h2 class="t2">A ti, flor</h2>
             <br>
-            <p>
-                O que dizer à doce flor <br>
-                Que me alegra com tanta freqüência <br>
-                Me abre o sorriso, seja quando for <br>
-                Com esta envolvente inocência?
-            </p>
-            <br>
-            <p>
-                Florzinha dos olhos penetrantes <br>
-                Que vasculham meus segredos <br>
-                Estas amêndoas incitantes <br>
-                Libertam todos os meus medos
-            </p>
-            <br>
-            <p>
-                És flor em forma de mulher <br>
-                Provida de toda elegância e beleza <br>
-                Te querer não seria uma surpresa <br>
-                Componho a ti, se assim quiser
-            </p>
-            <br>
-            <p>
-                Ao teu lado, eu sempre estarei <br>
-                Sentindo tua suave respiração <br>
-                Presença que apazigua o coração <br>
-                Pondo em dúvida tudo o que sei
-            </p>
+            <article>
+                <p>
+                    O que dizer à doce flor <br>
+                    Que me alegra com tanta freqüência <br>
+                    Me abre o sorriso, seja quando for <br>
+                    Com esta envolvente inocência?
+                </p>
+                <br>
+                <p>
+                    Florzinha dos olhos penetrantes <br>
+                    Que vasculham meus segredos <br>
+                    Estas amêndoas incitantes <br>
+                    Libertam todos os meus medos
+                </p>
+                <br>
+                <p>
+                    És flor em forma de mulher <br>
+                    Provida de toda elegância e beleza <br>
+                    Te querer não seria uma surpresa <br>
+                    Componho a ti, se assim quiser
+                </p>
+                <br>
+                <p>
+                    Ao teu lado, eu sempre estarei <br>
+                    Sentindo tua suave respiração <br>
+                    Presença que apazigua o coração <br>
+                    Pondo em dúvida tudo o que sei
+                </p>
+            </article>
             <br>
         </section>
-        <section class="imagem" id="imgprinc">
+        <section class="imagem" id="princ">
             <h2>A ti, princesa</h2>
             <br>
             <p>
@@ -252,39 +225,41 @@
             </p>
             <br>
         </section>
-        <section class="normal">
-            <h2>Acróstico</h2>
+        <section class="lumi" id="acrost">
+            <h2 class="t2">Acróstico</h2>
             <br>
-            <p>
-                Queria eu, ter autonomia sobre este meu coração <br>
-                Usar de estratagemas e ludibriá-lo a meu favor <br>
-                Entorpecê-lo, fazendo de mim sempre o seu senhor <br>
-                Rei ou qualquer figura que demande adoração
-            </p>
-            <br>
-            <p>
-                O ontem sob total controle; o tempo, subjugado <br>
-                A chance de viver para todo o sempre a sua presença <br>
-                Trevas e acasos que, um por um, a gente vença <br>
-                Irrelevantes enquanto estivermos assim, lado a lado
-            </p>
-            <br>
-            <p>
-                Anseio pelo brilho de admiração heróica que há <br>
-                Nesses teus olhos que até quando fechados, me fitam <br>
-                Ainda sabendo que na minha vida você não está <br>
-                Cada e todo elemento dessa vontade, sim, te gritam
-            </p>
-            <br>
-            <p>
-                Ainda que, todos tais poderes citados, eu tivesse  <br>
-                Renunciaria; por preferir o poder de não precisar ter <br>
-                Logo o universo colapsaria se isso se mantivesse <br>
-                Antes a dor da verdade a uma versão utópica de você
-            </p>
+            <article>
+                <p>
+                    Queria eu, ter autonomia sobre este meu coração <br>
+                    Usar de estratagemas e ludibriá-lo a meu favor <br>
+                    Entorpecê-lo, fazendo de mim sempre o seu senhor <br>
+                    Rei ou qualquer figura que demande adoração
+                </p>
+                <br>
+                <p>
+                    O ontem sob total controle; o tempo, subjugado <br>
+                    A chance de viver para todo o sempre a sua presença <br>
+                    Trevas e acasos que, um por um, a gente vença <br>
+                    Irrelevantes enquanto estivermos assim, lado a lado
+                </p>
+                <br>
+                <p>
+                    Anseio pelo brilho de admiração heróica que há <br>
+                    Nesses teus olhos que até quando fechados, me fitam <br>
+                    Ainda sabendo que na minha vida você não está <br>
+                    Cada e todo elemento dessa vontade, sim, te gritam
+                </p>
+                <br>
+                <p>
+                    Ainda que, todos tais poderes citados, eu tivesse  <br>
+                    Renunciaria; por preferir o poder de não precisar ter <br>
+                    Logo o universo colapsaria se isso se mantivesse <br>
+                    Antes a dor da verdade a uma versão utópica de você
+                </p>
+            </article>
             <br>
         </section>
-        <section class="imagem" id="imgadmin">
+        <section class="imagem" id="admir">
             <h2>Admirador (não tão) secreto</h2>
             <br>
             <p>
@@ -316,39 +291,41 @@
             </p>
             <br>
         </section>
-        <section class="normal">
-            <h2>Amor em coletivos</h2>
+        <section class="lumi" id="colet">
+            <h2 class="t2">Amor em coletivos</h2>
             <br>
-            <p>
-                É ao afagar o chumaço dos teus cabelos que a vida, <br>
-                Feito punhado de grãos de areia, faz-se compreender <br>
-                Provisão de sentimentos nos quais encontro a saída <br>
-                Vasta safra de bem-quereres que vigoram sem porquê
-            </p>
-            <br>
-            <p>
-                É ao folhear o atlas do teu coração que eu adentro <br>
-                Cordilheiras que, como fortalezas, cercam o teu peito <br>
-                Alamedas formadas apenas para margear teu leito <br>
-                Panapaná que como olho do furacão te tem no centro
-            </p>
-            <br>
-            <p>
-                É ao me deixar atingir pela saraivada de ti que eu <br>
-                Passo a parte integrante da nossa falange e mitologia <br>
-                Legião que te acompanha; jus às asas que me deu <br>
-                Jazer imortalizados em constelações de estrelas-guia
-            </p>
-            <br>
-            <p>
-                É ao manuscrever resmas, poemas e bilhetes que então <br>
-                Assumo o pseudônimo que representa tudo que vivi <br>
-                Palavra que compõe todo meu vocabulário: amor; em si <br>
-                Falando em coletivos, de "Eu te amo" é "Todos verão"
-            </p>
+            <article>
+                <p>
+                    É ao afagar o chumaço dos teus cabelos que a vida, <br>
+                    Feito punhado de grãos de areia, faz-se compreender <br>
+                    Provisão de sentimentos nos quais encontro a saída <br>
+                    Vasta safra de bem-quereres que vigoram sem porquê
+                </p>
+                <br>
+                <p>
+                    É ao folhear o atlas do teu coração que eu adentro <br>
+                    Cordilheiras que, como fortalezas, cercam o teu peito <br>
+                    Alamedas formadas apenas para margear teu leito <br>
+                    Panapaná que como olho do furacão te tem no centro
+                </p>
+                <br>
+                <p>
+                    É ao me deixar atingir pela saraivada de ti que eu <br>
+                    Passo a parte integrante da nossa falange e mitologia <br>
+                    Legião que te acompanha; jus às asas que me deu <br>
+                    Jazer imortalizados em constelações de estrelas-guia
+                </p>
+                <br>
+                <p>
+                    É ao manuscrever resmas, poemas e bilhetes que então <br>
+                    Assumo o pseudônimo que representa tudo que vivi <br>
+                    Palavra que compõe todo meu vocabulário: amor; em si <br>
+                    Falando em coletivos, de "Eu te amo" é "Todos verão"
+                </p>
+            </article>
             <br>
         </section>
-        <section class="imagem" id="imgabort">
+        <section class="imagem" id="abort">
             <h2>Amores abortados</h2>
             <br>
             <p>
@@ -380,39 +357,41 @@
             </p>
             <br>
         </section>
-        <section class="normal">
-            <h2>Até quando?</h2>
+        <section class="lumi" id="quando">
+            <h2 class="t2">Até quando?</h2>
             <br>
-            <p>
-                Até quando a devastação <br>
-                Acabará com nossa floresta <br>
-                Impedindo toda a nação <br>
-                De usufruir o que nos resta
-            </p>
-            <br>
-            <p>
-                Até quando a ganância <br>
-                Nos fará definhar prematuros <br>
-                Envenenados desde a infância <br>
-                Por viver num mundo em apuros
-            </p>
-            <br>
-            <p>
-                Até quando a indiferença <br>
-                Nos cegará quanto ao urgente <br>
-                Problemas de caráter latente <br>
-                Por nossa total falta de presença
-            </p>
-            <br>
-            <p>
-                Até que a "conveniente" prosperidade <br>
-                Façam fauna e flora realmente extintas <br>
-                E nos torne uma raça humana tão distinta <br>
-                Que somente reinará a iniquidade
-            </p>
+            <article>
+                <p>
+                    Até quando a devastação <br>
+                    Acabará com nossa floresta <br>
+                    Impedindo toda a nação <br>
+                    De usufruir o que nos resta
+                </p>
+                <br>
+                <p>
+                    Até quando a ganância <br>
+                    Nos fará definhar prematuros <br>
+                    Envenenados desde a infância <br>
+                    Por viver num mundo em apuros
+                </p>
+                <br>
+                <p>
+                    Até quando a indiferença <br>
+                    Nos cegará quanto ao urgente <br>
+                    Problemas de caráter latente <br>
+                    Por nossa total falta de presença
+                </p>
+                <br>
+                <p>
+                    Até que a "conveniente" prosperidade <br>
+                    Façam fauna e flora realmente extintas <br>
+                    E nos torne uma raça humana tão distinta <br>
+                    Que somente reinará a iniquidade
+                </p>
+            </article>
             <br>
         </section>
-        <section class="imagem" id="imgdeturp">
+        <section class="imagem" id="deturp">
             <h2>Ato ou efeito de deturpar</h2>
             <br>
             <p>
@@ -444,39 +423,41 @@
             </p>
             <br>
         </section>
-        <section class="normal">
-            <h2>Ato ou efeito de espargir</h2>
+        <section class="lumi" id="esparg">
+            <h2 class="t2">Ato ou efeito de espargir</h2>
             <br>
-            <p>
-                Quisera eu que as gotas em teu travesseiro fossem cristais <br>
-                Colecionáveis pedras repletas de registros e significados <br>
-                Personagens do teatro da vida; daquilo que não volta mais <br>
-                Marcadas a ferro e fogo - o que se espera de enamorados
-            </p>
-            <br>
-            <p>
-                Esperas que eu emerja do emaranhado de folhas e flores <br>
-                Como se ganhasse vida a partir do conteúdo do teu diário <br>
-                Meu bem, mal sabes tu que do nosso amor sou relicário <br>
-                E que em mim, coração meu, não há lugar para dissabores
-            </p>
-            <br>
-            <p>
-                Pudera eu, até o fim dessa vida, dispor em cada parede <br>
-                Presentes, quadros e fotos; justapostos, no lugar da pintura <br>
-                Retratando a nossa linha do tempo; do meu querer, a sede <br>
-                De te ofertar o sentimento mais primitivo, puro; in natura
-            </p>
-            <br>
-            <p>
-                Impera em mim a vontade de subverter o tempo-espaço <br>
-                Ser teu em toda e qualquer encarnação que vier a ter <br>
-                Irradiar aos quatro cantos do nosso mundo, este prazer <br>
-                Que, sabes tu, hei nascido para tal; é tudo o que faço
-            </p>
+            <article>
+                <p>
+                    Quisera eu que as gotas em teu travesseiro fossem cristais <br>
+                    Colecionáveis pedras repletas de registros e significados <br>
+                    Personagens do teatro da vida; daquilo que não volta mais <br>
+                    Marcadas a ferro e fogo - o que se espera de enamorados
+                </p>
+                <br>
+                <p>
+                    Esperas que eu emerja do emaranhado de folhas e flores <br>
+                    Como se ganhasse vida a partir do conteúdo do teu diário <br>
+                    Meu bem, mal sabes tu que do nosso amor sou relicário <br>
+                    E que em mim, coração meu, não há lugar para dissabores
+                </p>
+                <br>
+                <p>
+                    Pudera eu, até o fim dessa vida, dispor em cada parede <br>
+                    Presentes, quadros e fotos; justapostos, no lugar da pintura <br>
+                    Retratando a nossa linha do tempo; do meu querer, a sede <br>
+                    De te ofertar o sentimento mais primitivo, puro; in natura
+                </p>
+                <br>
+                <p>
+                    Impera em mim a vontade de subverter o tempo-espaço <br>
+                    Ser teu em toda e qualquer encarnação que vier a ter <br>
+                    Irradiar aos quatro cantos do nosso mundo, este prazer <br>
+                    Que, sabes tu, hei nascido para tal; é tudo o que faço
+                </p>
+            </article>
             <br>
         </section>
-        <section class="imagem" id="imgoblit">
+        <section class="imagem" id="oblit">
             <h2>Ato ou efeito de obliterar</h2>
             <br>
             <p>
@@ -507,5 +488,6 @@
                 Muito embora, recordar, a estranheza mútua nos impeça
             </p>
         </section>
+        <script src="script-ac.js"></script>
 </body>
 </html>

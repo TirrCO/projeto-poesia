@@ -54,6 +54,8 @@ div#titnav {
     left: 100px;
     top: 100px;
     padding: 0px 5px;
+    color: var(--colordia4);
+    text-shadow: .5px .5px 1px rgba(171, 102, 70, 0.5);
 }
 
 div#poema {
@@ -67,6 +69,7 @@ div#poema {
 div#poema > p {
     line-height: 21px;
     font-size: 1.1em;
+    text-shadow: .5px .5px 1px rgba(171, 102, 70, 0.5);
 }
 
 h1 {
