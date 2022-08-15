@@ -46,6 +46,13 @@ section.imagem {
 
 section#loucura {
     background-image: url('../imagens/anossaloucura-edit.jpg');
+    padding-right: 40px;
+    text-align: right;
+}
+
+section#loucura > h2 {
+    color: #74B4BF;
+    text-shadow: 1px 1px 1px whitesmoke;
 }
 
 section#admir {
@@ -72,9 +79,17 @@ section#oblit {
     background-image: url('../imagens/aoeobliterar-edit.jpg');
 }
 
-article {
+article.lumi {
     background-image: linear-gradient(to bottom, rgba(142, 64, 238, 0.5), white);
     width: 510px;
+    padding: 15px;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+article.imagem {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 510px;
+    margin-left: auto;
     padding: 15px;
 }
 
