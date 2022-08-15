@@ -64,12 +64,12 @@ div#poema {
     top: 185px;
     padding: 10px 20px 20px 20px;
     color: var(--colordia4);
+    text-shadow: .5px .5px 1px rgba(171, 102, 70, 0.5);
 }
 
 div#poema > p {
     line-height: 21px;
     font-size: 1.1em;
-    text-shadow: .5px .5px 1px rgba(171, 102, 70, 0.5);
 }
 
 h1 {
@@ -80,9 +80,10 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 3.5em;
     font-family: 'Square Peg', cursive;
     color: var(--colordia1);
+    padding-bottom: 5px;
 }
 
 ul {

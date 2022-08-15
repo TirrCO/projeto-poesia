@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: lightslategray;
+    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -28,6 +28,15 @@ h3 {
     padding: 5px;
 }
 
+h3 > a {
+    text-decoration: none;
+    color: #F1D3A5;
+    padding-right: 2px;
+}
+
+h3 > a:hover {
+    text-decoration: underline;
+}
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -55,16 +64,61 @@ section#loucura > h2 {
     text-shadow: 1px 1px 1px whitesmoke;
 }
 
-section#admir {
-    background-image: url('../imagens/admintsecreto-edit.jpg');
+section#loucura > article.ima {
+    width: 430px;
+    margin-left: auto;
+    box-shadow: inset 0px 0px 9px 0px whitesmoke;
 }
 
 section#san {
     background-image: url('../imagens/asadisse-edit.jpg');
 }
 
+section#san > h2 {
+    color: #502f17;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#san > article.ima {
+    width: 430px;
+    background-color: #ffffffbf;
+    box-shadow: inset 0px 0px 9px -2px black;
+}
+
 section#princ {
     background-image: url('../imagens/atiprincesa.jpg');
+}
+
+section#princ > h2 {
+    color: goldenrod;
+    text-shadow: 1px 1px 1px white;
+}
+
+section#princ > article.ima {
+    width: 420px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+section#admir {
+    background-image: url('../imagens/admintsecreto-edit.jpg');
+}
+
+section#admir > h2 {
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+}
+
+section#admir > article.ima {
+    width: 360px;
+    margin: auto;
+}
+
+#mano {
+    background-color: black;
+    color: whitesmoke;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: -3px;
 }
 
 section#abort {
@@ -79,30 +133,53 @@ section#oblit {
     background-image: url('../imagens/aoeobliterar-edit.jpg');
 }
 
-article.lumi {
-    background-image: linear-gradient(to bottom, rgba(142, 64, 238, 0.5), white);
+section#doninha > article.lux {
+    width: 440px;
+}
+
+section#procura > article.lux {
+    width: 400px;
+}
+
+section#flor > article.lux {
+    width: 320px;
+}
+
+section#acrost > article.lux {
+    width: 480px;
+}
+
+section#colet > article.lux {
+    width: 485px;
+}
+
+section#girass > article.lux {
+    width: 480px;
+}
+
+section#esparg > article.lux {
     width: 510px;
+}
+
+article.lux {
+    background-color: #b7caf0;
     padding: 15px;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-article.imagem {
+article.ima {
     background-color: rgba(255, 255, 255, 0.6);
-    width: 510px;
-    margin-left: auto;
-    padding: 15px;
-}
-
-a {
-    text-decoration: none;
-    color: #F1D3A5;
-}
-
-a:hover {
-    text-decoration: underline;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: left;
 }
 
 .lumi {
     color: #521e18;
     text-shadow: .5px .5px 1px rgb(171, 102, 70, 0.5);
+}
+
+img.borda:hover {
+    border: 2px solid black;
+    border-radius: 10px;
 }
