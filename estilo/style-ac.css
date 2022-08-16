@@ -5,9 +5,11 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
+    min-height: 100vh;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -22,6 +24,7 @@ h2 {
     font-family: 'Square Peg', 'cursive';
     font-size: 4em;
     padding-bottom: 30px;
+    padding-top: 5px;
 }
 
 h3 {
@@ -31,7 +34,6 @@ h3 {
 h3 > a {
     text-decoration: none;
     color: #F1D3A5;
-    padding-right: 2px;
 }
 
 h3 > a:hover {
@@ -41,7 +43,7 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 40px;
-    font-size: 1.2em;
+    font-size: 1.3vw;
     line-height: 1.5em;
 }
 
@@ -61,13 +63,23 @@ section#loucura {
 
 section#loucura > h2 {
     color: #74B4BF;
-    text-shadow: 1px 1px 1px whitesmoke;
+    text-shadow: 1px 1px 3px black;
 }
 
 section#loucura > article.ima {
-    width: 430px;
+    width: 470px;
     margin-left: auto;
     box-shadow: inset 0px 0px 9px 0px whitesmoke;
+}
+
+section#loucura img {
+    background-color: #ffffff80;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px black;
+}
+
+section#loucura img:hover {
+    background-color: #74B4BF;
 }
 
 section#san {
@@ -80,9 +92,19 @@ section#san > h2 {
 }
 
 section#san > article.ima {
-    width: 430px;
+    width: 460px;
     background-color: #ffffffbf;
     box-shadow: inset 0px 0px 9px -2px black;
+}
+
+section#san img {
+    background-color: #ffffff8a;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px black;
+}
+
+section#san img:hover {
+    background-color: #502f17;
 }
 
 section#princ {
@@ -91,12 +113,23 @@ section#princ {
 
 section#princ > h2 {
     color: goldenrod;
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 1px 1px 1px black;
 }
 
 section#princ > article.ima {
-    width: 420px;
+    width: 430px;
     background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: inset 0px 0px 9px -2px black;
+}
+
+section#princ img {
+    background-color: #ffffffb2;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px black;
+}
+
+section#princ img:hover {
+    background-color: goldenrod;
 }
 
 section#admir {
@@ -109,8 +142,20 @@ section#admir > h2 {
 }
 
 section#admir > article.ima {
-    width: 360px;
+    width: 400px;
     margin: auto;
+    text-align: center;
+    box-shadow: inset 0px 0px 9px -2px black;
+}
+
+section#admir img {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px black;
+}
+
+section#admir img:hover {
+    background-color: #8E8E9A;
 }
 
 #mano {
@@ -118,47 +163,119 @@ section#admir > article.ima {
     color: whitesmoke;
     padding: 3px;
     border-radius: 5px;
-    margin-left: -3px;
+    margin-left: -1px;
 }
 
 section#abort {
     background-image: url('../imagens/amoresabortados-edit.jpg');
 }
 
+section#abort > h2 {
+    text-shadow: 2px 2px 2px whitesmoke;
+    text-align: right;
+    padding-right: 40px;
+}
+
+section#abort > article.ima {
+    width: 500px;
+    margin-right: 40px;
+    margin-left: auto;
+    box-shadow: inset 0px 0px 9px -2px black;
+}
+
+section#abort img {
+    background-color: #ffffffb2;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px black;
+}
+
+section#abort img:hover {
+    background-color: #722d3a;
+}
+
 section#deturp {
     background-image: url('../imagens/aoedeturpar-edit.jpg');
+}
+
+section#deturp > h2 {
+    color: gold;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+
+section#deturp > article.ima {
+    width: 470px;
+    margin: auto;
+    box-shadow: inset 0px 0px 9px -2px black;
+}
+
+section#deturp img {
+    background-color: #ffffffb2;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px black;
+}
+
+section#deturp img:hover {
+    background-color: gold;
 }
 
 section#oblit {
     background-image: url('../imagens/aoeobliterar-edit.jpg');
 }
 
-section#doninha > article.lux {
-    width: 440px;
+section#oblit > h2 {
+    color: #7caa9b;
+    text-shadow: 1px 1px 3px black;
+    text-align: right;
+    margin-right: 40px;
+}
+
+section#oblit > article.ima {
+    width: 530px;
+    margin-left: auto;
+    margin-right: 40px;
+    box-shadow: inset 0px 0px 9px -2px black;
+}
+
+section#oblit img {
+    background-color: #ffffffb2;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px black;
+}
+
+section#oblit img:hover {
+    background-color: #7caa9b;
+}
+
+section#doninha > p {
+    display: inline-block;
+    padding: 15px;
+    background-color: #b7caf0;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 section#procura > article.lux {
-    width: 400px;
+    width: 430px;
 }
 
 section#flor > article.lux {
-    width: 320px;
+    width: 350px;
 }
 
 section#acrost > article.lux {
-    width: 480px;
+    width: 500px;
 }
 
 section#colet > article.lux {
-    width: 485px;
+    width: 515px;
 }
 
 section#girass > article.lux {
-    width: 480px;
+    width: 520px;
 }
 
 section#esparg > article.lux {
-    width: 510px;
+    width: 550px;
 }
 
 article.lux {
@@ -168,7 +285,7 @@ article.lux {
 }
 
 article.ima {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     border-radius: 25px;
     text-align: left;
@@ -179,7 +296,17 @@ article.ima {
     text-shadow: .5px .5px 1px rgb(171, 102, 70, 0.5);
 }
 
+img.borda {
+    border: 2px solid transparent;
+}
+
 img.borda:hover {
     border: 2px solid black;
     border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.4);
+    box-shadow: 0px 2px 4px black;
+}
+
+span {
+    text-shadow: 0px 0px 1px gray;
 }
