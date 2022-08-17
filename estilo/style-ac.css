@@ -23,7 +23,7 @@ header {
 h2 {
     font-family: 'Square Peg', 'cursive';
     font-size: 4em;
-    padding-bottom: 30px;
+    padding-bottom: 3vh;
     padding-top: 5px;
 }
 
@@ -66,8 +66,8 @@ section#loucura > h2 {
     text-shadow: 1px 1px 3px black;
 }
 
-section#loucura > article.ima {
-    width: 470px;
+section#loucura > p {
+    display: inline-block;
     margin-left: auto;
     box-shadow: inset 0px 0px 9px 0px whitesmoke;
 }
@@ -76,6 +76,7 @@ section#loucura img {
     background-color: #ffffff80;
     border-radius: 10px;
     box-shadow: 0px 2px 4px black;
+    margin: 2vh 0px 0px .5vw;
 }
 
 section#loucura img:hover {
@@ -91,8 +92,8 @@ section#san > h2 {
     text-shadow: 1px 1px 1px black;
 }
 
-section#san > article.ima {
-    width: 460px;
+section#san > p {
+    display: inline-block;
     background-color: #ffffffbf;
     box-shadow: inset 0px 0px 9px -2px black;
 }
@@ -116,8 +117,8 @@ section#princ > h2 {
     text-shadow: 1px 1px 1px black;
 }
 
-section#princ > article.ima {
-    width: 430px;
+section#princ > p {
+    display: inline-block;
     background-color: rgba(255, 255, 255, 0.85);
     box-shadow: inset 0px 0px 9px -2px black;
 }
@@ -134,16 +135,20 @@ section#princ img:hover {
 
 section#admir {
     background-image: url('../imagens/admintsecreto-edit.jpg');
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-section#admir > h2 {
+section#admir h2 {
     text-align: center;
     text-shadow: 1px 1px 1px white;
 }
 
-section#admir > article.ima {
-    width: 400px;
-    margin: auto;
+section#admir p {
+    display: inline-block;
+    margin-left: 40px;
     text-align: center;
     box-shadow: inset 0px 0px 9px -2px black;
 }
@@ -168,17 +173,17 @@ section#admir img:hover {
 
 section#abort {
     background-image: url('../imagens/amoresabortados-edit.jpg');
+    padding-right: 40px;
+    text-align: right;
 }
 
 section#abort > h2 {
     text-shadow: 2px 2px 2px whitesmoke;
-    text-align: right;
     padding-right: 40px;
 }
 
-section#abort > article.ima {
-    width: 500px;
-    margin-right: 40px;
+section#abort > p {
+    display: inline-block;
     margin-left: auto;
     box-shadow: inset 0px 0px 9px -2px black;
 }
@@ -195,16 +200,20 @@ section#abort img:hover {
 
 section#deturp {
     background-image: url('../imagens/aoedeturpar-edit.jpg');
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-section#deturp > h2 {
+section#deturp h2 {
     color: gold;
     text-shadow: 2px 2px 4px black;
     text-align: center;
 }
 
-section#deturp > article.ima {
-    width: 470px;
+section#deturp p {
+    display: inline-block;
     margin: auto;
     box-shadow: inset 0px 0px 9px -2px black;
 }
@@ -230,8 +239,8 @@ section#oblit > h2 {
     margin-right: 40px;
 }
 
-section#oblit > article.ima {
-    width: 530px;
+section#oblit > p {
+    display: inline-block;
     margin-left: auto;
     margin-right: 40px;
     box-shadow: inset 0px 0px 9px -2px black;
@@ -254,40 +263,52 @@ section#doninha > p {
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-section#procura > article.lux {
-    width: 430px;
-}
-
-section#flor > article.lux {
-    width: 350px;
-}
-
-section#acrost > article.lux {
-    width: 500px;
-}
-
-section#colet > article.lux {
-    width: 515px;
-}
-
-section#girass > article.lux {
-    width: 520px;
-}
-
-section#esparg > article.lux {
-    width: 550px;
-}
-
-article.lux {
-    background-color: #b7caf0;
+section#procura > p {
+    display: inline-block;
     padding: 15px;
+    background-color: #b7caf0;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-article.ima {
+section#flor > p {
+    display: inline-block;
+    padding: 15px;
+    background-color: #b7caf0;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+section#acrost > p {
+    display: inline-block;
+    padding: 15px;
+    background-color: #b7caf0;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+section#colet > p {
+    display: inline-block;
+    padding: 15px;
+    background-color: #b7caf0;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+section#girass > p {
+    display: inline-block;
+    padding: 15px;
+    background-color: #b7caf0;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+section#esparg > p {
+    display: inline-block;
+    padding: 15px;
+    background-color: #b7caf0;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+p.ima {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
-    border-radius: 25px;
+    border-radius: 20px;
     text-align: left;
 }
 
@@ -297,11 +318,11 @@ article.ima {
 }
 
 img.borda {
-    border: 2px solid transparent;
+    border: 1px solid transparent;
 }
 
 img.borda:hover {
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px;
     background-color: rgba(245, 245, 245, 0.4);
     box-shadow: 0px 2px 4px black;
