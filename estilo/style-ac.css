@@ -210,6 +210,7 @@ section#abort img:hover {
 
 section#deturp {
     background-image: url('../imagens/aoedeturpar-edit.jpg');
+    background-position: right center;
     padding-left: 0px;
     display: flex;
     justify-content: center;
@@ -224,7 +225,8 @@ section#deturp h2 {
 
 section#deturp p {
     display: inline-block;
-    margin-left: 4vw;
+    
+    text-align: center;
     box-shadow: inset 0px 0px 9px -2px black;
 }
 
@@ -239,7 +241,7 @@ section#deturp img:hover {
 }
 
 section#deturp img.exc {
-    margin: 2vh 1vw 0px 4vw;
+    margin: 2vh 1vw 0px 3vw;
 }
 
 section#oblit {
