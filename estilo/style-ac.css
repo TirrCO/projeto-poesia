@@ -22,8 +22,8 @@ header {
 
 h2 {
     font-family: 'Square Peg', 'cursive';
-    font-size: 4em;
-    padding-bottom: 3vh;
+    font-size: 5em;
+    padding-bottom: 5vh;
     padding-top: 5px;
 }
 
@@ -32,6 +32,7 @@ h3 {
 }
 
 h3 > a {
+    font-size: .95em;
     text-decoration: none;
     color: #F1D3A5;
 }
@@ -39,11 +40,12 @@ h3 > a {
 h3 > a:hover {
     text-decoration: underline;
 }
+
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 40px;
-    font-size: 1.3vw;
+    font-size: 2.3vmin;
     line-height: 1.5em;
 }
 
@@ -57,6 +59,7 @@ section.imagem {
 
 section#loucura {
     background-image: url('../imagens/anossaloucura-edit.jpg');
+    background-position: left bottom;
     padding-right: 40px;
     text-align: right;
 }
@@ -102,6 +105,7 @@ section#san img {
     background-color: #ffffff8a;
     border-radius: 10px;
     box-shadow: 0px 2px 4px black;
+    margin: 2vh .5vw 0px 0px;
 }
 
 section#san img:hover {
@@ -127,6 +131,7 @@ section#princ img {
     background-color: #ffffffb2;
     border-radius: 10px;
     box-shadow: 0px 2px 4px black;
+    margin: 2vh .5vw 0px 0px;
 }
 
 section#princ img:hover {
@@ -148,7 +153,7 @@ section#admir h2 {
 
 section#admir p {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 8vw;
     text-align: center;
     box-shadow: inset 0px 0px 9px -2px black;
 }
@@ -161,6 +166,10 @@ section#admir img {
 
 section#admir img:hover {
     background-color: #8E8E9A;
+}
+
+section#admir img.exc {
+    margin: 2vh 1vw 0px 8vw;
 }
 
 #mano {
@@ -192,6 +201,7 @@ section#abort img {
     background-color: #ffffffb2;
     border-radius: 10px;
     box-shadow: 0px 2px 4px black;
+    margin: 2vh 0px 0px .5vw;
 }
 
 section#abort img:hover {
@@ -214,7 +224,7 @@ section#deturp h2 {
 
 section#deturp p {
     display: inline-block;
-    margin: auto;
+    margin-left: 4vw;
     box-shadow: inset 0px 0px 9px -2px black;
 }
 
@@ -228,21 +238,25 @@ section#deturp img:hover {
     background-color: gold;
 }
 
+section#deturp img.exc {
+    margin: 2vh 1vw 0px 4vw;
+}
+
 section#oblit {
     background-image: url('../imagens/aoeobliterar-edit.jpg');
+    padding-right: 40px;
+    text-align: right;
 }
 
 section#oblit > h2 {
     color: #7caa9b;
     text-shadow: 1px 1px 3px black;
     text-align: right;
-    margin-right: 40px;
 }
 
-section#oblit > p {
+section#oblit p {
     display: inline-block;
-    margin-left: auto;
-    margin-right: 40px;
+    background-color: rgba(255, 255, 255, 0.85);
     box-shadow: inset 0px 0px 9px -2px black;
 }
 
@@ -254,6 +268,10 @@ section#oblit img {
 
 section#oblit img:hover {
     background-color: #7caa9b;
+}
+
+section#oblit img.exc {
+    margin: 2vh 1vw 0px 4vw;
 }
 
 section#doninha > p {
@@ -270,11 +288,19 @@ section#procura > p {
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
+section#procura img {
+    margin: 2vh .5vw 0px 0px;
+}
+
 section#flor > p {
     display: inline-block;
     padding: 15px;
     background-color: #b7caf0;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+section#flor img {
+    margin: 2vh .5vw 0px 0px;
 }
 
 section#acrost > p {
@@ -284,11 +310,19 @@ section#acrost > p {
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
+section#acrost img {
+    margin: 2vh .5vw 0px 0px;
+}
+
 section#colet > p {
     display: inline-block;
     padding: 15px;
     background-color: #b7caf0;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+section#colet img {
+    margin: 2vh .5vw 0px 0px;
 }
 
 section#girass > p {
@@ -298,11 +332,19 @@ section#girass > p {
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
+section#girass img {
+    margin: 2vh .5vw 0px 0px;
+}
+
 section#esparg > p {
     display: inline-block;
     padding: 15px;
     background-color: #b7caf0;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+section#esparg img {
+    margin: 2vh .5vw 0px 0px;
 }
 
 p.ima {
