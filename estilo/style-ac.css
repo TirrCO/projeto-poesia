@@ -22,9 +22,9 @@ header {
 
 h2 {
     font-family: 'Square Peg', 'cursive';
-    font-size: 5em;
-    padding-bottom: 5vh;
-    padding-top: 5px;
+    font-size: 9vh;
+    padding-bottom: 3vh;
+   
 }
 
 h3 {
@@ -147,6 +147,7 @@ section#admir {
 }
 
 section#admir h2 {
+    padding-left: 10px;
     text-align: center;
     text-shadow: 1px 1px 1px white;
 }
@@ -169,7 +170,7 @@ section#admir img:hover {
 }
 
 section#admir img.exc {
-    margin: 2vh 1vw 0px 8vw;
+    margin: 2vh .5vw 0px 27vw;
 }
 
 #mano {
@@ -188,7 +189,6 @@ section#abort {
 
 section#abort > h2 {
     text-shadow: 2px 2px 2px whitesmoke;
-    padding-right: 40px;
 }
 
 section#abort > p {
@@ -349,7 +349,7 @@ section#esparg img {
 
 p.ima {
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 20px;
+    padding: 15px;
     border-radius: 20px;
     text-align: left;
 }
